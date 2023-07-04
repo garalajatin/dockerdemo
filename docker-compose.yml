@@ -22,7 +22,7 @@ services:
 
   # Database Service (Mysql)
   db:
-    image: mysql:5.7
+    image: mysql:8
     container_name: "docker-db"
     ports:
       - "3306:3306"
